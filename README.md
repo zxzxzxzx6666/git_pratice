@@ -34,4 +34,4 @@
     git push
 ## 03 undo things
     // after add to stage we can use reset to reset that
-    git reset HEAD .\README.md
+    git reset --HEAD .\README.md
