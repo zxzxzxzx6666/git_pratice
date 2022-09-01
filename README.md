@@ -67,5 +67,5 @@
     git branch testing
     // switch branch
     git checkout testing
-    // fix
-    fix
+    // merge bridge
+    git merge hotfix
