@@ -21,6 +21,7 @@
     git status
     // show logs
     git log
+    git log --oneline --decorate
 ## 02 simple commit
     // to know now branch
     git status
@@ -51,5 +52,19 @@
 ## 05 tag
     // list tag
     git tag
-    // add tag Annotated
+    // add tag for now
     git tag -a v1.4 -m "my version 1.4"
+    git push
+## 06 Aliases
+    // set aliases
+    git config --global alias.last 'log -1 HEAD'
+    // use it 
+    $ git last
+    (you can see the last commit easily)
+# 三、branch
+## 01 basic
+    // create branch
+    git branch testing
+    // switch branch
+    git checkout testing
+    // fix
