@@ -8,7 +8,9 @@
     touch README.md
     git add README.md
     git commit -m "first commit"
+    // remote add <remote(shortname fot git web site)> <git web>
     git remote add origin git@github.com:zxzxzxzx6666/git_pratice.git
+    // git push -u <remote> <branch>
     git push -u origin main
 
 # 二、git basic
@@ -35,3 +37,19 @@
 ## 03 undo things
     // after add to stage we can use reset to reset that
     git reset --HEAD .\README.md
+## 04 remote 
+    // check now remote Repositories
+    $ git remote
+    // show all remote
+    $ git remote -v
+    // change remote
+    git remote set-url <remote_name> <remote_url>
+    // change remote git fetch <origin>
+    git fetch test
+    // remove remote
+    git remote remove test
+## 05 tag
+    // list tag
+    git tag
+    // add tag Annotated
+    git tag -a v1.4 -m "my version 1.4"
