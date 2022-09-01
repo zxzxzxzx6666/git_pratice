@@ -1,3 +1,4 @@
+# LEARN GIT
 # 一、Getting Started 
 ## 01 Getting a Git Repository
     // first create a Repository on git website
@@ -63,9 +64,15 @@
     (you can see the last commit easily)
 # 三、branch
 ## 01 basic
+    // show branches and if up to date
+    git remote show origin
+    // show branch (no merged)
+    git branch --no-merged
     // create branch
     git branch testing
     // switch branch
     git checkout testing
     // merge bridge
     git merge hotfix
+    // delete bridge
+    git branch -d hotfix
