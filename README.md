@@ -37,8 +37,10 @@
     // push
     git push
 ## 03 undo things
-    // after add to stage we can use reset to reset that
+    // after add to stage we can use reset to reset that !! will delete !!
     git reset --HEAD .\README.md
+    // !! will create new push !!
+    git revert --HEAD --no-edit
 ## 04 remote 
     // check now remote Repositories
     $ git remote
@@ -76,3 +78,8 @@
     git merge hotfix
     // delete bridge
     git branch -d hotfix
+## 02 head
+    // check head on which branch
+    cat .git/HEAD
+    // point to version (need to change to the branch first)
+    git checkout <指定 commit SHA-1>
